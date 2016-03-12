@@ -1,0 +1,8 @@
+#  Vendors
+/css/vendor
+/fonts
+/js/vendor
+/php/vendor
+
+#parameters
+/php/config

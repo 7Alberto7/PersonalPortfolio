@@ -1,0 +1,272 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ /*   Helpers   */
+ .width-all {
+ 	width: 100%;
+ }
+ .cursor-pointer {
+ 	cursor: pointer;
+ }
+ .pad-s {
+ 	padding: 5px;
+ }
+ .pad-m {
+ 	padding: 10px;
+ }
+ .pad-l {
+ 	padding: 20px;
+ }
+ .margin-left-s {
+ 	margin-left: 5px;
+ }
+ .no-margin-top {
+ 	margin-top: 0;
+ }
+ .no-margin-bot {
+ 	margin-bottom: 0;
+ }
+ /*   App   */
+ .icon-block {
+ 	padding: 0 15px;
+ }
+ .icon-block .material-icons {
+ 	font-size: inherit;
+ }
+ .brand-logo,
+ .button-collapse {
+ 	cursor: pointer;
+ 	padding: 0px 10px !important;
+ }
+ .fixed-action-btn-downloadcv {
+ 	bottom: 45px;
+ 	right: 24px;
+ }
+ #main-section {
+ 	position: relative;
+ 	width: auto;
+ 	background-color: #f3f3f3;
+ 	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/main-image.jpg') center 75% no-repeat;
+ 	background-size: cover;
+ }
+ #projects-section, #skills-section, #wall-section {
+ 	padding-top: 50px;
+ }
+ #wall-section {
+ 	display: none;
+ }
+ .skills-tag.category-frontend,
+ .skills-card.category-frontend {
+ 	background-color: #bbdefb; /*blue lighten-4*/
+ 	color: #0d47a1;
+ }
+ .skills-tag.category-backend,
+ .skills-card.category-backend {
+ 	background-color: #ffe0b2; /*orange lighten-4*/
+ 	color: #e65100;
+ }
+ .skills-tag.category-mobile,
+ .skills-card.category-mobile {
+ 	background-color: #c8e6c9; /*green lighten-4*/
+ 	color: #1b5e20;
+ }
+ .skills-tag.category-management,
+ .skills-card.category-management {
+ 	background-color: #d1c4e9; /*deep-purple lighten-4*/
+ 	color: #311b92;
+ }
+ .skills-tag.category-marketing,
+ .skills-card.category-marketing {
+ 	background-color: #cfd8dc; /*blue-grey lighten-4*/
+ 	color: #263238;
+ }
+ .skills-tag.category-others,
+ .skills-card.category-others {
+ 	background-color: #d7ccc8; /*brown lighten-4*/
+ 	color: #3e2723;
+ }
+ .height-diploma {
+ 	height: 170px;
+ }
+ /***** Nav mobile *****/
+ #nav-mobile.side-nav {
+ 	background-color: #ffffff;
+ }
+ #nav-mobile.side-nav li:first-of-type {
+ 	background-color: #1976d2; /*blue darken-2*/
+ 	color: #ffffff;
+ }
+ #nav-mobile.side-nav li:first-of-type a {
+ 	color: #ffffff;
+ }
+ #nav-mobile.side-nav li {
+ 	padding: 0 0;
+ }
+ /***** Modal *****/
+ .modal .modal-title {
+ 	padding: 24px;
+ }
+ .modal .modal-title span {
+ 	font-size: 32px;
+ }
+ .modal .modal-title img {
+ 	height: 42px;
+ 	float: right;
+ }
+ .modal.category-frontend .modal-title {
+ 	border-bottom: 2px solid #0d47a1;
+ }
+ .modal.category-frontend .modal-title,
+ .modal.category-frontend .modal-footer button.modal-close,
+ .modal.category-frontend .modal-footer button.modal-close:active,
+ .modal.category-frontend .modal-footer button.modal-close:focus,
+ .modal.category-frontend .modal-footer button.modal-close:hover {
+ 	background-color: #bbdefb;
+ 	color: #0d47a1;
+ }
+ .modal.category-backend .modal-title {
+ 	border-bottom: 2px solid #e65100;
+ }
+ .modal.category-backend .modal-title,
+ .modal.category-backend .modal-footer button.modal-close,
+ .modal.category-backend .modal-footer button.modal-close:active,
+ .modal.category-backend .modal-footer button.modal-close:focus,
+ .modal.category-backend .modal-footer button.modal-close:hover {
+ 	background-color: #ffe0b2;
+ 	color: #e65100;
+ }
+ .modal.category-mobile .modal-title {
+ 	border-bottom: 2px solid #1b5e20;
+ }
+ .modal.category-mobile .modal-title,
+ .modal.category-mobile .modal-footer button.modal-close,
+ .modal.category-mobile .modal-footer button.modal-close:active,
+ .modal.category-mobile .modal-footer button.modal-close:focus,
+ .modal.category-mobile .modal-footer button.modal-close:hover {
+ 	background-color: #c8e6c9;
+ 	color: #1b5e20;
+ }
+ .modal.category-management .modal-title {
+ 	border-bottom: 2px solid #311b92;
+ }
+ .modal.category-management .modal-title,
+ .modal.category-management .modal-footer button.modal-close,
+ .modal.category-management .modal-footer button.modal-close:active,
+ .modal.category-management .modal-footer button.modal-close:focus,
+ .modal.category-management .modal-footer button.modal-close:hover {
+ 	background-color: #d1c4e9;
+ 	color: #311b92;
+ }
+ .modal.category-marketing .modal-title {
+ 	border-bottom: 2px solid #263238;
+ }
+ .modal.category-marketing .modal-title,
+ .modal.category-marketing .modal-footer button.modal-close,
+ .modal.category-marketing .modal-footer button.modal-close:active,
+ .modal.category-marketing .modal-footer button.modal-close:focus,
+ .modal.category-marketing .modal-footer button.modal-close:hover {
+ 	background-color: #cfd8dc;
+ 	color: #263238;
+ }
+ .modal.category-others .modal-title {
+ 	border-bottom: 2px solid #3e2723;
+ }
+ .modal.category-others .modal-title,
+ .modal.category-others .modal-footer button.modal-close,
+ .modal.category-others .modal-footer button.modal-close:active,
+ .modal.category-others .modal-footer button.modal-close:focus,
+ .modal.category-others .modal-footer button.modal-close:hover {
+ 	background-color: #d7ccc8;
+ 	color: #3e2723;
+ }
+
+ /***** Footer *****/
+ /*** Form ***/
+ /* label color */
+ .input-field label {
+ 	color: #000;
+ }
+ /* label focus color */
+ .input-field input[type=email]:focus + label,
+ .input-field textarea.materialize-textarea:focus + label {
+ 	color: #1976d2;
+ }
+ /* label underline color and text color */
+ .input-field input[type=email],
+ .input-field textarea.materialize-textarea {
+ 	border-bottom: 1px solid #FF9800;
+ 	box-shadow: 0 1px 0 0 #FF9800;
+ 	color: #000;
+ }
+ /* label underline focus color */
+ .input-field input[type=email]:focus,
+ .input-field textarea.materialize-textarea:focus {
+ 	border-bottom: 1px solid #1976d2;
+ 	box-shadow: 0 1px 0 0 #1976d2;
+ }
+ /* valid color */
+ .input-field input[type=email].valid,
+ .input-field textarea.materialize-textarea.valid {
+ 	border-bottom: 1px solid #FF9800;
+ 	box-shadow: 0 1px 0 0 #FF9800;
+ }
+ /* invalid color */
+ .input-field input[type=email].invalid,
+ .input-field textarea.materialize-textarea.invalid {
+ 	border-bottom: 1px solid #d32f2f;
+ 	box-shadow: 0 1px 0 0 #d32f2f;
+ }
+ /*** Icons ***/
+ .social-icons .fa {
+ 	color: #fff;
+ 	-webkit-transition: -webkit-transform 0.5s ease;
+ 	-o-transition: -o-transform 0.5s ease;
+	-moz-transition: -moz-transform 0.5s ease;
+	transition: transform 0.5s ease;
+ }
+ .social-icons .fa:hover {
+ 	-webkit-transform: scale(1.25);
+	-moz-transform: scale(1.25);
+	-o-transform: scale(1.25);
+	transform: scale(1.25);
+ }
+ .social-icons .fa-envelope:hover {
+ 	color: #dd4b39;
+ }
+ .social-icons .fa-github:hover {
+ 	color: #333333;
+ }
+ .social-icons .fa-bitbucket:hover {
+ 	color: #205081;
+ }
+ .social-icons .fa-linkedin:hover {
+ 	color: #007bb6;
+ }
+ .social-icons .fa-facebook:hover {
+ 	color: #3b5998;
+ }
+ .social-icons .fa-twitter:hover {
+ 	color: #00aced;
+ }
+ footer.page-footer {
+ 	margin-top: 0px;
+ 	padding-top: 30px;
+ }
+ /***** Media Queries M *****/
+ @media (min-width: 601px) and (max-width: 780px) {
+ 	.height-diploma {
+ 		height: 140px;
+ 	}
+ }
+ /***** Media Queries S *****/
+ @media (max-width: 600px) {
+ 	.height-diploma {
+ 		height: auto;
+ 		margin-bottom: 0.5em;
+ 	}
+ }

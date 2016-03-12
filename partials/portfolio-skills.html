@@ -1,0 +1,44 @@
+<div class="container">
+	<!--   Project Section   -->
+	<h1 class="center">Skills</h1>
+	<div class="row">
+		<button ng-click="sc.showWall()" class="btn waves-effect waves-light orange right">
+			Watch my wall
+		</button>
+	</div>
+	<div class="row hide-on-small-only">
+		<p>
+			<span class="skills-tag pad-s category-frontend">Frontend</span>
+			<span class="skills-tag pad-s category-backend">Backend</span>
+			<span class="skills-tag pad-s category-mobile">Mobile</span>
+			<span class="skills-tag pad-s category-management">Management</span>
+			<span class="skills-tag pad-s category-marketing">Marketing</span>
+			<span class="skills-tag pad-s category-others">Others</span>
+		</p>
+	</div>
+	<div class="row">				
+		<div class="col s12 m3 l2" ng-repeat="skill in skills | orderBy : '-name' : true">
+			<div class="card-panel center modal-trigger cursor-pointer waves-effect waves-light width-all skills-card category-{{skill.category|lowercase}}" open-modal="#modal{{skill.id}}">
+				<img class="responsive-img" alt="{{skill.name}}" on-error-src="{{'generic'|imageify}}" src="{{('skills/' + skill.name)|imageify}}" height="64">
+				<p>{{skill.name}}</p>
+			</div>
+		</div>
+	</div>
+	<!-- Modal Structure -->
+	<div id="modal{{skill.id}}" class="modal category-{{skill.category|lowercase}}" ng-repeat="skill in skills">
+		<div class="modal-title">
+			<span>{{skill.name}}</span>
+			<img class="responsive-img" alt="{{skill.name}}" on-error-src="{{'generic'|imageify}}" src="{{('skills/' + skill.name)|imageify}}">
+		</div>
+		<div class="modal-content">
+			<div class="row">
+				<div class="col s12">
+					<p ng-bind-html="skill.description | rawHtml"></p>
+				</div>
+			</div>
+		</div>
+		<div class="modal-footer">
+			<button class="btn modal-close waves-effect waves-light">Close</button>
+		</div>
+	</div>
+</div>

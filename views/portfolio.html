@@ -1,0 +1,45 @@
+<div class="fixed-action-btn fixed-action-btn-downloadcv">
+	<a class="btn waves-effect waves-light red">Download CV</a>
+</div>
+<section id="main-section" class="no-pad-bot">
+	<div class="navbar-fixed">
+		<nav class="blue darken-2" role="navigation">
+			<div class="nav-wrapper">
+				<a id="logo-container" scroll-to="main-section" target="_self" class="brand-logo">Alberto Casero</a>
+				<ul class="right hide-on-med-and-down">
+					<li><a scroll-to="projects-section">Projects</a></li>
+					<li><a scroll-to="skills-section">Skills</a></li>
+					<li><a scroll-to="contact-section">Contact</a></li>
+				</ul>
+
+				<ul id="nav-mobile" class="side-nav">
+					<li><a scroll-to="main-section">Alberto Casero</a></li>
+					<li><a scroll-to="projects-section">Projects</a></li>
+					<li><a scroll-to="skills-section">Skills</a></li>
+					<li><a scroll-to="contact-section">Contact</a></li>
+				</ul>
+				<a ng-href="#" data-activates="nav-mobile" class="button-collapse"><i class="fa fa-navicon"></i></a>
+			</div>
+		</nav>
+	</div>
+	<div class="container">
+		<br><br>
+		<h1 class="header center white-text">Web Engineer</h1>
+		<div class="row center">
+			<h5 class="header col s12 white-text">Full Stack Developer and Full Time Learner</h5>
+		</div>
+		<br><br>
+	</div>
+</section>
+<section ng-controller="ProjectController" id="projects-section" class="section blue lighten-2">
+	<portfolio-projects></portfolio-projects>
+</section>
+<section ng-controller="SkillsController as sc" id="skills-section" class="section">
+	<portfolio-skills></portfolio-skills>
+</section>
+<section ng-controller="DiplomaController as dc" id="wall-section" class="section">
+	<portfolio-wall></portfolio-wall>
+</section>
+<footer id="contact-section" class="page-footer orange">
+	<portfolio-contact></portfolio-contact>
+</footer>

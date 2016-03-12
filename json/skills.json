@@ -1,0 +1,156 @@
+[
+	{
+		"id": 1,
+		"name": "HTML5",
+		"description": "<p>HTML5 was my first contact with the web environment. Well, really, it was my second because I started with the fourth revision of the standar but I quit because of my lack of time.</p><p>When I returned to HTML, HTML5 was starting so I gave it a chance practising with Mejorando.la, currently called Platzi.com. Thanks to this course I decide to turn into web development instead of carry on with the job I was working on.</p><p>I've done lots of things using HTML5 from the semantic tags to media tags, going through the classic tags.</p>",
+		"projects": [],
+		"category": "Frontend"
+	},
+	{
+		"id": 2,
+		"name": "CSS3",
+		"description": "<p>Basically, HTML5 and CSS3 walk hand in hand. So, when I started practising HTML5, I also began learning CSS3.</p><p>I've been working with animations, using selectors, simple styles, media queries, ....</p>",
+		"projects": [],
+		"category": "Frontend"
+	},
+	{
+		"id": 3,
+		"name": "Javascript",
+		"description": "<p>All right, you can handle frontend development with HTML5 and CSS3, but I think we agree that's very limitated without Javascript.</p><p>At first, I started learning how to handle events but then Ajax came into my interest's radar. It was no surprise since you need Ajax if you want to communicate the frontend area with backend.</p>",
+		"projects": [],
+		"category": "Frontend"
+	},
+	{
+		"id": 4,
+		"name": "AngularJS",
+		"description": "<p>AngularJS is a frontend framework based on Javascript and developed by Google. I've been learning how to use it since 2015, when I did the AngularJS Course with the MOOC platform Platzi.</p></br><p>I've used it in this web and I like it. AngularJS controllers, directives, filters and services have been used in this project and the experience couldn't be better in an organizative way.</p>",
+		"projects": [],
+		"category": "Frontend"
+	},
+	{
+		"id": 5,
+		"name": "Bootstrap",
+		"description": "<p>Bootstrap is defined as a frontend framework. I've been using it since I developed Desabi when Bootstrap was on its version 2.</p><p>Thanks to Bootstrap not only I saved a lot of time, but also made some experience as teacher in Trazos school.</p>",
+		"projects": [],
+		"category": "Frontend"
+	},
+	{
+		"id": 6,
+		"name": "Material Design",
+		"description": "<p>Material Design is a concept for web designing introduced by Google. It's a list of good practices focus on usability and responsive design.</p>",
+		"projects": [],
+		"category": "Frontend"
+	},
+	{
+		"id": 7,
+		"name": "Android",
+		"description": "<p>I did some simple Android apps. I've learned how to make a good interface design, how to work with intents, how to connect by webservices my mobile app with my web app, ....</p>",
+		"projects": [],
+		"category": "Mobile"
+	},
+	{
+		"id": 8,
+		"name": "Symfony2",
+		"description": "<p>If you work with PHP and want to implement good practices and patterns, you'll probably need a framework and I choosed Symfony2, although I started using CodeIgniter. Maybe, it is the most difficult PHP framework but also the most complete.</p><p>I've been work with it since early 2014 and I've learned a lot. I've implemented web interfaces with twig, authentication systems, pdf creation funcionalities, SOAP and REST webservices and clients, ....</p>",
+		"projects": [],
+		"category": "Backend"
+	},
+	{
+		"id": 9,
+		"name": "PHP",
+		"description": "<p>Working with PHP was something casual because I really didn't choose to start with it. Some friends told me to start programming with PHP and here I am, since 2013.</p><p>At first, I programmed with just PHP, then I choose to learn how to code with a framework.</p>",
+		"projects": [],
+		"category": "Backend"
+	},
+	{
+		"id": 10,
+		"name": "MySQL",
+		"description": "<p>I met SQL at my university, while coursing an asignature where I learned how to design and implement a good database relational schema.</p><p>Later, I've been applying this knowledge to my backend projects by using MySQL.</p>",
+		"projects": [],
+		"category": "Backend"
+	},
+	{
+		"id": 11,
+		"name": "SCRUM",
+		"description": "",
+		"projects": [],
+		"category": "Management"
+	},
+	{
+		"id": 12,
+		"name": "SEO",
+		"description": "",
+		"projects": [],
+		"category": "Marketing"
+	},
+	{
+		"id": 13,
+		"name": "Google Analytics",
+		"description": "",
+		"projects": [],
+		"category": "Marketing"
+	},
+	{
+		"id": 14,
+		"name": "MongoDB",
+		"description": "",
+		"projects": [],
+		"category": "Backend"
+	},
+	{
+		"id": 15,
+		"name": "Java",
+		"description": "",
+		"projects": [],
+		"category": "Backend"
+	},
+	{
+		"id": 16,
+		"name": "Spring",
+		"description": "",
+		"projects": [],
+		"category": "Backend"
+	},
+	{
+		"id": 17,
+		"name": "Linux",
+		"description": "",
+		"projects": [],
+		"category": "Backend"
+	},
+	{
+		"id": 18,
+		"name": "Windows",
+		"description": "",
+		"projects": [],
+		"category": "Backend"
+	},
+	{
+		"id": 19,
+		"name": "JQuery",
+		"description": "",
+		"projects": [],
+		"category": "Frontend"
+	},
+	{
+		"id": 20,
+		"name": "Git",
+		"description": "",
+		"projects": [],
+		"category": "Management"
+	},
+	{
+		"id": 21,
+		"name": "GIMP",
+		"description": "",
+		"projects": [],
+		"category": "Others"
+	},
+	{
+		"id": 22,
+		"name": "Unity",
+		"description": "",
+		"projects": [],
+		"category": "Others"
+	}
+]

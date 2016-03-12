@@ -1,0 +1,191 @@
+[
+	{
+		"id": 1,
+		"name": "Entrenos Desabi",
+		"url": "http://entrenos.desabi.es/",
+		"enterprise": "Freelance",
+		"description": "<p>Entrenos Desabi was the first web project I developed. Ramón and Ricardo joined me to design and create a complete app to make training sessions for Desabi.</p>",
+		"technologies": [
+			"HTML5",
+			"CSS3",
+			"Bootstrap",
+			"Javascript",
+			"JQuery",
+			"PHP"
+		],
+		"resources": [
+		    {"name": "Entrenos Desabi Video", "type": "Youtube", "url": "https://www.youtube.com/watch?v=FbbheVd91oI"}
+		],
+		"partnership": [
+			{"name": "Ramón Invarato", "url": ""},
+			{"name": "Ricardo Moya", "url": ""}
+		],
+		"year": "2013"
+	},
+	{
+		"id": 2,
+		"name": "Score",
+		"url": "https://play.google.com/store/apps/details?id=com.inactec.score",
+		"enterprise": "Freelance",
+		"description": "<p>Score is a generic score developed for the Android platform. It was my first Android app which was uploaded to the Play Store.</p>",
+		"technologies": [
+			"Android"
+		],
+		"resources": [
+			{"name": "Score Github Repository", "type": "Github", "url": "https://github.com/7Alberto7/Score"}
+		],
+		"partnership": [
+		],
+		"year": "2013"
+	},
+	{
+		"id": 3,
+		"name": "Verdad o Mentira",
+		"url": "https://play.google.com/store/apps/details?id=com.inactec.verdadomentira",
+		"enterprise": "Freelance",
+		"description": "<p>Verdad o Mentira is an Android app which I developed only in two days. The objectivo of this development was to learn how to add publicity and monetize an Android app.</p><p>Although it was really easy to develop, this app was quite succesful and reached almost 20.000 downloads until January 2016.</p>",
+		"technologies": [
+			"Android"
+		],
+		"resources": [
+			{"name": "Verdad o Mentira Github Repository", "type": "Github", "url": "https://github.com/7Alberto7/VerdadOMentira"}
+		],
+		"partnership": [
+		],
+		"year": "2013"
+	},
+	{
+		"id": 4,
+		"name": "Electrónica Losdel",
+		"url": "http://electronicalosdel.com/",
+		"enterprise": "Freelance",
+		"description": "<p>This was the first web project I did all by myself. Electrónica Losdel wanted an easy web to solve their lack of visibility on the web.</p><p>Although I didn't need to use a backend technology, I did. I used the PHP framework called CodeIgniter because I wanted to learn how to work with a framework and I had time to.</p><p>It was a good experience beacuse I learned how to use a backend framework and, also, I applied some digital marketing techniques to raise the SEO of this webpage.</p>",
+		"technologies": [
+			"HTML5",
+			"CSS3",
+			"Bootstrap",
+			"Javascript",
+			"JQuery",
+			"Google Analytics",
+			"SEO",
+			"PHP",
+			"CodeIgniter"
+		],
+		"resources": [
+		],
+		"partnership": [
+		],
+		"year": "2014"
+	},
+	{
+		"id": 5,
+		"name": "WePlay Web",
+		"url": "",
+		"enterprise": "Universidad Politécnica of Madrid",
+		"description": "<p>WePlay web fue la primera parte del proyecto fin de máster que presenté, junto a mis compañeros Lien y Adrián, ante la Universidad Politécnica de Madrid. Este proyecto supuso un primer contacto completo con Symfony2 y MongoDB. Además, hicimos una adaptación de la metodología SCRUM para poder compenetrarnos lo mejor posible y realizar el proyecto a tiempo, sin dejar de lado la flexibilidad ante los cambios que nos iba indicando nuestro cliente, el profesor.</p>",
+		"technologies": [
+			"HTML5",
+			"CSS3",
+			"Bootstrap",
+			"Javascript",
+			"JQuery",
+			"PHP",
+			"Symfony2",
+			"SCRUM"
+		],
+		"resources": [
+			{"name": "WePlay Web App Github Repository", "type": "Github", "url": "https://github.com/7Alberto7/pfmweb"},
+			{"name": "WePlay Web App Video", "type": "Youtube", "url": "https://www.youtube.com/watch?v=NGS4zLwVJBs"}
+		],
+		"partnership": [
+			{"name": "Adrián Alonso", "url": ""},
+			{"name": "Lien Valdés", "url": ""}
+		],
+		"year": "2014"
+	},
+	{
+		"id": 6,
+		"name": "WePlay Mobile",
+		"url": "",
+		"enterprise": "Universidad Politécnica of Madrid",
+		"description": "<p>Aplicación Android presentada como Proyecto Fin de Máster junto con mis compañeros Adrián y Lien. Con esta parte, completamos el proyecto. Gracias a la implementación de servicios REST en la parte web, conseguimos reproducir los datos en la aplicación móvil.</p>",
+		"technologies": [
+			"Android",
+			"SCRUM"
+		],
+		"resources": [
+			{"name": "WePlay Android App Github Repository", "type": "Github", "url": "https://github.com/7Alberto7/pfmandroid"},
+			{"name": "WePlay Android App Video", "type": "Youtube", "url": "https://www.youtube.com/watch?v=HFNFReWx5Os"}
+		],
+		"partnership": [
+			{"name": "Adrián Alonso", "url": ""},
+			{"name": "Lien Valdés", "url": ""}
+		],
+		"year": "2014"
+	},
+	{
+		"id": 7,
+		"name": "Certify Legal",
+		"url": "",
+		"enterprise": "PixiePixel",
+		"description": "<p>This web app was a certification form creator for buildings. The are no resources of this project because of the customer's confidenciality agreement.</p>",
+		"technologies": [
+			"HTML5",
+			"CSS3",
+			"Bootstrap",
+			"Javascript",
+			"JQuery",
+			"PHP",
+			"Symfony2"
+		],
+		"resources": [
+		],
+		"partnership": [
+			{"name": "PixiePixel", "url": ""}
+		],
+		"year": "2014"
+	},
+	{
+		"id": 8,
+		"name": "MCR",
+		"url": "https://www.mcr.com.es",
+		"enterprise": "MCR Infoelectronics",
+		"description": "<p>This web app is a complete online shop for MCR Infoelectronics, the enterprise where I'm currently working.</p>",
+		"technologies": [
+			"HTML5",
+			"CSS3",
+			"Bootstrap",
+			"Javascript",
+			"JQuery",
+			"PHP",
+			"Symfony2"
+		],
+		"resources": [
+		],
+		"partnership": [
+			{"name": "PixiePixel", "url": ""},
+			{"name": "MCR", "url": ""}
+		],
+		"year": "2014 - Now"
+	},
+	{
+		"id": 9,
+		"name": "Personal Portfolio",
+		"url": "https://www.albertocasero.es",
+		"enterprise": "Freelance",
+		"description": "<p>Personal portfolio made to show the projects I've done, my skills, ....</p>",
+		"technologies": [
+			"HTML5",
+			"CSS3",
+			"Materialize",
+			"Javascript",
+			"JQuery",
+			"AngularJS"
+		],
+		"resources": [
+		],
+		"partnership": [
+		],
+		"year": "2016 - Now"
+	}
+]

@@ -14,7 +14,7 @@
 			"PHP"
 		],
 		"resources": [
-		    {"name": "Entrenos Desabi Video", "type": "Youtube", "url": "https://www.youtube.com/watch?v=FbbheVd91oI"}
+		    {"name": "Entrenos Desabi Video", "type": "Youtube", "url": "https://www.youtube.com/watch?v=YZ5fpJZsjHk"}
 		],
 		"partnership": [
 			{"name": "Ramón Invarato", "url": ""},
@@ -95,7 +95,7 @@
 		],
 		"resources": [
 			{"name": "WePlay Web App Github Repository", "type": "Github", "url": "https://github.com/7Alberto7/pfmweb"},
-			{"name": "WePlay Web App Video", "type": "Youtube", "url": "https://www.youtube.com/watch?v=NGS4zLwVJBs"}
+			{"name": "WePlay Web App Video", "type": "Youtube", "url": "https://www.youtube.com/watch?v=IAdDdWE1VVA"}
 		],
 		"partnership": [
 			{"name": "Adrián Alonso", "url": ""},
@@ -115,7 +115,7 @@
 		],
 		"resources": [
 			{"name": "WePlay Android App Github Repository", "type": "Github", "url": "https://github.com/7Alberto7/pfmandroid"},
-			{"name": "WePlay Android App Video", "type": "Youtube", "url": "https://www.youtube.com/watch?v=HFNFReWx5Os"}
+			{"name": "WePlay Android App Video", "type": "Youtube", "url": "https://www.youtube.com/watch?v=Knv3nlJvhcY"}
 		],
 		"partnership": [
 			{"name": "Adrián Alonso", "url": ""},
